@@ -1,5 +1,6 @@
 const { expect } = require('chai');
-const { expressionCalculator } = require('./src/index.js');
+const { expressionCalculator } = require('./src/index');
+console.log(expressionCalculator);
 
 describe("Easy", function() {
     it("Test simple addition", function() {
